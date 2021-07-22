@@ -6,7 +6,7 @@ Reference implementation of NGINX Plus as relying party for OpenID Connect authe
 
 This repository describes how to enable OpenID Connect integration for [NGINX Plus](https://www.nginx.com/products/nginx/). The solution depends on NGINX Plus components ([auth_jwt module](http://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html) and [key-value store](http://nginx.org/en/docs/http/ngx_http_keyval_module.html)) and as such is not suitable for [open source NGINX](http://www.nginx.org/en).
 
-Auth0 and Okta Configuration Examples have been included in this Repo's configuration files. Demo/Dev Accounts were used on Okta and Auth0 which are no longer available. You will need to create your own Okta and Auth0 accountsand update these configurations accordingly.
+Auth0 and Okta Configuration Examples have been included in this Repo's configuration files. Demo/Dev Accounts were used on Okta and Auth0 which are no longer available. You will need to create your own Okta and Auth0 accounts and update these configurations accordingly.
 
 <img src=./img/DIAG-NGINX-CT-Openid-Connect-update-authorization-code-flow-NGINX+-1024x534.svg alt="OpenID Connect components" width=500>
 
